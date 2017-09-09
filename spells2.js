@@ -5,7 +5,7 @@ function doStuff() {
   robot.setKeyboardDelay(250);
 
   //try cast exura five hits
-  spells("f7", 2100);
+  spells("f2", 1100);
 }
 
 // run exura 5 hits
@@ -24,7 +24,7 @@ function spells(type, time){
 
   robot.keyTap(type);
   robot.setKeyboardDelay(time);
-
+  
   robot.keyTap(type);
   robot.setKeyboardDelay(time);
 }

@@ -25,7 +25,7 @@ function refillPotion(){
   robot.setMouseDelay(200);
   robot.mouseClick();
   robot.setMouseDelay(200);
-  robot.moveMouse(2488, 835);
+  robot.moveMouse(2482, 833);
   robot.setMouseDelay(200);
   robot.mouseClick();
   robot.setMouseDelay(200);

@@ -6,6 +6,13 @@ exec('node ./spells.js', function(error, stdout, stderr) {
     }
 });
 
+exec('node ./spells2.js', function(error, stdout, stderr) {
+    console.log('START SPELLS2');
+    if (error !== null) {
+        console.log('error');
+    }
+});
+
 exec('node ./buyPotion.js', function(error, stdout, stderr) {
     console.log('START BUY POTION');
     if (error !== null) {
